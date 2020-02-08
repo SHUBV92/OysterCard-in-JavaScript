@@ -33,11 +33,18 @@ describe("Card", function() {
     });
 
     it("Change station when touch in", function() {
-      expect(card.touchIn).toBe(true);
+      card.touchIn("barking");
+      expect(card.entryStation).toBe("barking");
     });
 
-    it("Change station when touch in", function() {
-      expect(card.touchIn).toBe(true);
+    it("Change station when touch out", function() {
+      card.touchOut("Aldgate")
+      expect(card.exitStation).toBe("Aldgate");
     });
   });
+  
+  describe("Journey", function(){
+
+  });
+
 });

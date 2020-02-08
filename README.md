@@ -3,7 +3,7 @@
 # Language: JavaScript 
 
 
-# User Stories
+# User Stories 
 
 - As a User 
 * So I can travel 
@@ -19,7 +19,7 @@
 * I want to be able to register the station I touched in and touched out at 
 
 - As a User 
-* So I don’t get charged a penalty fare 
+* So I don’t get charged a penalty fare
 * I want the oyster card to give me a warning when my balance is 0 
 
 ## BlackBox 

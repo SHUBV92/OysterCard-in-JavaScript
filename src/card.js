@@ -20,7 +20,7 @@ Card.prototype.withdraw = function(amount) {
 Card.prototype.touchIn = function(station, zone) {
   this.entryStation = station;
   this.entryZone = zone;
-  this.touchIn = true;
+  this.touchin = true;
 };
 
 Card.prototype.touchOut = function(station, zone) {
